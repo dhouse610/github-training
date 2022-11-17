@@ -32,8 +32,8 @@ def HangMan():
                     numLives -= 1
                     print(f"Lives Left: {numLives}")
         else:
-            correct = True
-    print("You Win!!!!!!!!!")
-    print(''.join(blankList))
+            print("You Win!!!!!!!!!")
+            print(''.join(blankList))
+            break
     
 HangMan()
